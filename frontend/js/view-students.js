@@ -30,11 +30,12 @@ const viewStudent = (id) => {
 };
 
 const viewAllStudents = () => {
-  let body = `<tr>
-    <th>Name</th>
-    <th>Age</th>
-    <th>Contact</th>
-    <th>Action</th>
+  let body = `<h1>Student list</h1><br>
+             <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Contact</th>
+                <th>Action</th>
              </tr>`;
 
   const myHeaders = new Headers();
